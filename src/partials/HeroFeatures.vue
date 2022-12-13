@@ -42,11 +42,7 @@
       <div class="relative pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Content -->
         <div class="max-w-2xl mx-auto text-center pb-12 md:pb-16">
-          <img
-            class="mb-8 w-full"
-            src="../images/AJSoftLogo4.png"
-            data-aos="fade-up"
-          />
+          <img class="mb-8 w-full" src="/AJSoftLogo4.png" data-aos="fade-up" />
           <h1
             class="text-2xl text-gray-200"
             data-aos="fade-up"
@@ -64,7 +60,7 @@
           >
             <img
               class="mx-auto rounded-full flex"
-              src="../images/acbytes.png"
+              src="/acbytes.png"
               width="256"
               height="256"
               alt="Alireza Shahbadi"
@@ -81,7 +77,7 @@
           >
             <img
               class="mx-auto rounded-full flex"
-              src="../images/juan-profile.png"
+              src="/juan-profile.png"
               width="256"
               height="256"
               alt="Juan Escalada"

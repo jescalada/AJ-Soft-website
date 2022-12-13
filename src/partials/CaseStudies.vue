@@ -20,7 +20,7 @@
               <figure class="relative h-0 pb-9/16 overflow-hidden">
                 <img
                   class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                  src="../images/saas_screenshot.png"
+                  src="/saas_screenshot.png"
                   width="352"
                   height="198"
                   alt="SaaS Company"
@@ -73,7 +73,7 @@
               <figure class="relative h-0 pb-9/16 overflow-hidden">
                 <img
                   class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                  src="../images/bonfire.png"
+                  src="/bonfire.png"
                   width="352"
                   height="198"
                   alt="Bonfire Logo"
@@ -121,7 +121,7 @@
               <figure class="relative h-0 pb-9/16 overflow-hidden">
                 <img
                   class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                  src="../images/travelr-logo.png"
+                  src="/travelr-logo.png"
                   width="352"
                   height="198"
                   alt="Travelr Logo"
