@@ -44,7 +44,7 @@
         <div class="max-w-2xl mx-auto text-center pb-12 md:pb-16">
           <img
             class="mb-8 w-full"
-            src="../images/AJ Soft Logo4.png"
+            src="../images/AJSoftLogo4.png"
             data-aos="fade-up"
           />
           <h1
