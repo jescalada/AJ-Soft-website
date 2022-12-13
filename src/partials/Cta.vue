@@ -35,21 +35,22 @@
               <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                 <label
                   class="block text-blue-700 text-sm font-medium mb-1 float-left"
-                  for="message"
+                  for="name"
                   >Name</label
                 >
                 <input
-                  id="phone-number"
+                  id="name"
                   type="text"
                   class="form-input w-full text-gray-800"
                   placeholder="Your Name"
                   required
+                  v-model="name"
                 />
               </div>
               <div class="w-full md:w-1/2 px-3">
                 <label
                   class="block text-blue-700 text-sm font-medium mb-1 float-left"
-                  for="message"
+                  for="email"
                   >Email</label
                 >
                 <input
@@ -58,6 +59,7 @@
                   class="form-input w-full text-gray-800"
                   placeholder="Your Email"
                   required
+                  v-model="email"
                 />
                 <!-- <p class="text-red-500 text-sm mt-2">This field is required</p> -->
               </div>
@@ -89,6 +91,7 @@
                   rows="4"
                   class="form-textarea w-full text-gray-800"
                   placeholder="Tell us about your project..."
+                  v-model="message"
                 ></textarea>
               </div>
             </div>
@@ -109,6 +112,7 @@
               <div class="px-3 w-full">
                 <button
                   class="btn text-white bg-purple-600 hover:bg-purple-700 w-full"
+                  v-on:click.prevent="sendEmail"
                 >
                   Get a free quote
                 </button>
@@ -143,7 +147,40 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
+
 export default {
   name: "Cta",
+  data() {
+    return {
+      name: "",
+      email: "",
+      message: "",
+    };
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs
+          .send(
+            "service_nillifd",
+            "template_55egcka",
+            {
+              name: this.name,
+              email: this.email,
+              message: this.message,
+            },
+            "NirgyErrMCa9expLi"
+          )
+          .then((e) => console.log(e));
+      } catch (error) {
+        console.log({ error });
+      }
+      // Reset form field
+      this.name = "";
+      this.email = "";
+      this.message = "";
+    },
+  },
 };
 </script>
