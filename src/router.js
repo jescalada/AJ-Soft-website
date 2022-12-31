@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Main from "./pages/Main.vue";
-import About from "./pages/About.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 
 const routerHistory = createWebHistory();
@@ -25,14 +24,6 @@ const router = createRouter({
         leaveClass: "animate__animated animate__fadeOutRight",
       },
     },
-    // {
-    //   path: "/about",
-    //   component: About,
-    //   meta: {
-    //     enterClass: "animate__animated animate__fadeInRight",
-    //     leaveClass: "animate__animated animate__fadeOutLeft",
-    //   },
-    // },
     {
       path: "/:pathMatch(.*)*",
       component: PageNotFound,

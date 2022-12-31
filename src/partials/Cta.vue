@@ -15,13 +15,13 @@
             Ready to turn your idea into a successful product?
           </h1>
           <p
-            class="text-xl text-blue-800 mb-8"
+            class="text-xl text-slate-600 mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-anchor="[data-aos-id-cta]"
           >
-            Send us a message with your project details. We will get in touch
-            with you ASAP!
+            Send a message with your project details. I'll get in touch with you
+            ASAP!
           </p>
 
           <!-- Contact form -->

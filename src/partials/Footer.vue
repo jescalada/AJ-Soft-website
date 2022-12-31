@@ -1,9 +1,9 @@
 <template>
   <footer class="bg-blue-900">
-    <div class="py-12 md:py-16">
+    <div class="py-6 md:py-12">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <!-- Top area: Blocks -->
-        <div class="grid md:grid-cols-12 gap-8 lg:gap-20 md:mb-8">
+        <div class="grid md:grid-cols-12 gap-8 lg:gap-20">
           <!-- 1st block -->
           <div class="md:col-span-4 lg:col-span-5">
             <div class="mb-2">
@@ -14,7 +14,9 @@
             </div>
 
             <!-- Copyrights note -->
-            <div class="text-gray-400 text-sm mr-4">&copy; 2022 AJ Soft</div>
+            <div class="text-gray-400 text-sm mr-4">
+              &copy; 2023 Juan Escalada
+            </div>
             <!-- <div class="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div> -->
           </div>
 

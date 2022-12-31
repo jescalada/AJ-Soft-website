@@ -1,13 +1,7 @@
 <template>
   <section>
-    <!-- Dark background -->
-    <!-- <div
-      class="absolute inset-0 bg-blue-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]"
-      aria-hidden="true"
-    ></div> -->
-
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="pb-12 md:pb-20">
+      <div class="pb-6 md:pb-16">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-8 md:pb-8">
           <ul

@@ -39,47 +39,33 @@
       </div>
 
       <!-- Hero content -->
-      <div class="relative pt-32 pb-12 md:pt-40 md:pb-20">
+      <div class="relative pt-24 pb-12 md:pt-32 md:pb-12">
         <!-- Content -->
         <div class="max-w-2xl mx-auto text-center pb-12 md:pb-16">
-          <img class="mb-8 w-full" src="/AJSoftLogo4.png" data-aos="fade-up" />
+          <h1
+            class="text-7xl font-bold tracking-wider font-oswald mb-4 text-blue-100"
+          >
+            Juan Escalada
+          </h1>
+          <!-- <img class="mb-8 w-full" src="/AJSoftLogo4.png" data-aos="fade-up" /> -->
           <h1
             class="text-2xl text-gray-200"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Affordable software solutions for startups
+            Custom Software Solutions
           </h1>
         </div>
         <!-- Image -->
         <div class="flex md:flex-row flex-col justify-center">
           <div
-            class="flex flex-col mb-8 md:m-8"
+            class="flex flex-col md:m-4"
             data-aos="fade-up"
             data-aos-delay="400"
           >
             <img
-              class="mx-auto rounded-full flex"
-              src="/acbytes.png"
-              width="256"
-              height="256"
-              alt="Alireza Shahbadi"
-            />
-            <div>
-              <p class="h4 text-center mt-6">Alireza Shahbadi</p>
-              <p class="text-lg text-center mt-2">Backend Developer</p>
-            </div>
-          </div>
-          <div
-            class="flex flex-col md:m-8"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <img
-              class="mx-auto rounded-full flex"
+              class="mx-auto rounded-full flex w-64 h-64"
               src="/juan-profile.png"
-              width="256"
-              height="256"
               alt="Juan Escalada"
             />
             <div>

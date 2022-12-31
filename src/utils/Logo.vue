@@ -1,5 +1,6 @@
 <template>
-  <svg
+  <img src="../images/logo.png" alt="" class="h-14" />
+  <!-- <svg
     height="64"
     width="64"
     version="1.1"
@@ -34,7 +35,7 @@
         ></path>
       </g>
     </g>
-  </svg>
+  </svg> -->
 </template>
 
 <script>

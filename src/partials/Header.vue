@@ -24,7 +24,7 @@
             <li>
               <button
                 v-scroll-to="'#cta'"
-                class="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                class="btn text-white bg-red-500 hover:bg-red-700"
               >
                 Get a free quote
               </button>

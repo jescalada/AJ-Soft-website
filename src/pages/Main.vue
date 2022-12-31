@@ -16,7 +16,6 @@
       <!-- Page sections -->
       <HeroFeatures class="bg-blue-900" />
       <Stats class="bg-blue-900" />
-      <!-- <FeaturesZigzag /> -->
       <FeaturesBlocks />
       <CaseStudies />
       <Cta />
